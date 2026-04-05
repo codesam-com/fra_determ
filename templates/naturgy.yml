@@ -1,0 +1,13 @@
+issuer: Naturgy Iberia, S.A.
+keywords:
+  - Naturgy Iberia
+  - FE
+fields:
+  invoice_number:
+    - 'Nº factura:\s*(FE\d+)'
+  date:
+    - 'Fecha de emisión:\s*(\d{2}\.\d{2}\.\d{4})'
+  amount:
+    - 'Total a pagar\s*([\d.,]+)€'
+options:
+  currency: EUR
